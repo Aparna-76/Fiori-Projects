@@ -1,0 +1,26 @@
+<mvc:View controllerName="simpleform.controller.form"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:f="sap.ui.layout.form">
+    <Page id="page" title="{i18n>title}">
+    
+        	<f:SimpleForm id="SimpleFormChange354">
+		
+			<f:content>
+				<Label id="_IDGenLabel1" text="Name"/>
+				<Input id="name"  width="25%"/>
+				<Label id="_IDGenLabel2" text="Age" />
+				<Input id="age"  width="25%">
+				</Input>
+				<Label id="_IDGenLabel3" text="Country" />
+				<Input id="country" width="25%">
+					
+				</Input>
+				
+				<ToggleButton id="btn" text="change" press="onPress" width="25%"></ToggleButton>
+			
+			</f:content>
+		</f:SimpleForm>
+       
+    </Page>
+</mvc:View>

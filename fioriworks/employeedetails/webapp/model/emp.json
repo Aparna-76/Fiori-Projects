@@ -1,0 +1,22 @@
+{
+
+    "employees" : [
+
+    { "Employee Id": "01", "Employee Name": "Jain", "Salary": "25000", "Currency": "INR", "Smoker": "Y", "Gender": "M", "Marital Status": "Married", "Rating": "4" },
+    { "Employee Id": "02", "Employee Name": "Smith", "Salary": "28000", "Currency": "USD", "Smoker": "N", "Gender": "F", "Marital Status": "Single", "Rating": "3" },
+    { "Employee Id": "03", "Employee Name": "Johnson", "Salary": "30000", "Currency": "USD", "Smoker": "N", "Gender": "M", "Marital Status": "Married", "Rating": "5" },
+    { "Employee Id": "04", "Employee Name": "Chen", "Salary": "22000", "Currency": "CNY", "Smoker": "Y", "Gender": "M", "Marital Status": "Single", "Rating": "3" },
+    { "Employee Id": "05", "Employee Name": "Garcia", "Salary": "27000", "Currency": "MXN", "Smoker": "N", "Gender": "F", "Marital Status": "Divorced", "Rating": "4" },
+    { "Employee Id": "06", "Employee Name": "Kim", "Salary": "32000", "Currency": "KRW", "Smoker": "N", "Gender": "M", "Marital Status": "Married", "Rating": "5" },
+    { "Employee Id": "07", "Employee Name": "Brown", "Salary": "24000", "Currency": "USD", "Smoker": "Y", "Gender": "M", "Marital Status": "Single", "Rating": "2" },
+    { "Employee Id": "08", "Employee Name": "Martinez", "Salary": "26000", "Currency": "USD", "Smoker": "N", "Gender": "F", "Marital Status": "Married", "Rating": "4" },
+    { "Employee Id": "09", "Employee Name": "Liu", "Salary": "23000", "Currency": "CNY", "Smoker": "N", "Gender": "F", "Marital Status": "Divorced", "Rating": "3" },
+    { "Employee Id": "10", "Employee Name": "Wilson", "Salary": "29000", "Currency": "USD", "Smoker": "N", "Gender": "M", "Marital Status": "Single", "Rating": "4" },
+    { "Employee Id": "11", "Employee Name": "Lee", "Salary": "31000", "Currency": "KRW", "Smoker": "N", "Gender": "F", "Marital Status": "Married", "Rating": "5" },
+    { "Employee Id": "12", "Employee Name": "Jones", "Salary": "25000", "Currency": "USD", "Smoker": "Y", "Gender": "M", "Marital Status": "Single", "Rating": "2" },
+    { "Employee Id": "13", "Employee Name": "Hernandez", "Salary": "27000", "Currency": "MXN", "Smoker": "N", "Gender": "M", "Marital Status": "Married", "Rating": "4" },
+    { "Employee Id": "14", "Employee Name": "Wang", "Salary": "22000", "Currency": "CNY", "Smoker": "Y", "Gender": "M", "Marital Status": "Single", "Rating": "3" },
+    { "Employee Id": "15", "Employee Name": "Davis", "Salary": "28000", "Currency": "USD", "Smoker": "N", "Gender": "F", "Marital Status": "Divorced", "Rating": "4" }
+    
+    ]
+}

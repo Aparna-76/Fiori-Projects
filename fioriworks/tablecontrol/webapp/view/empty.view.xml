@@ -1,0 +1,30 @@
+<mvc:View controllerName="tablecontrol.controller.list"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns:l="sap.ui.layout"
+    xmlns:t="sap.ui.table"
+    xmlns:c="sap.ui.core"
+    xmlns:f="sap.ui.layout.form"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+<Input
+			id="productInput1"
+			placeholder="Select Fruit" width="25%">
+		</Input>
+               
+    <!-- <IconTabBar
+		id="idIconTabBar">
+                <items>
+			<IconTabFilter id="_IDGenIconTabFilter1" icon="sap-icon://inventory"
+				iconColor="Negative"
+				count="{/ProductCollectionStats/Counts/Weight/Overweight}"
+				text="Overweight"
+				key="Overweight">
+                 <core:fragment fragmentName="tablecontrol.fragments.newpage" type="XML"/>
+                 </IconTabFilter>
+                  </items>
+                 </IconTabBar> -->
+          </content>
+    </Page>
+
+</mvc:View>

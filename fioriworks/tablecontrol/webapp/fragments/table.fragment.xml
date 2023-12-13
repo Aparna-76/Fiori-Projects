@@ -1,0 +1,61 @@
+<core:FragmentDefinition
+    xmlns:core="sap.ui.core"
+    xmlns="sap.m">
+        <Table id="t1" items="{path:'/supplier'}">
+                <columns>
+					 <Column id="_IDGenColumn1" width="11rem">
+						<Label id="_IDGenLabel1" text="name" />
+                        	
+					</Column>
+					<Column id="_IDGenColumn2" width="11rem">
+						<Label id="_IDGenLabel2" text="sincewhen" />
+					</Column>
+                    <Column id="_IDGenColumn3" width="11rem">
+						<Label id="_IDGenLabel3" text="contactno" />
+                        
+					</Column>
+                    <Column id="_IDGenColumn4" width="11rem">
+						<Label id="_IDGenLabel4" text="person" />
+					</Column>
+                    <Column id="_IDGenColumn5" width="11rem">
+						<Label id="_IDGenLabel5" text="noofstores" />
+					</Column>
+                    <Column id="_IDGenColumn6" width="11rem">
+						<Label id="_IDGenLabel6" text="speciality" />
+                        </Column>
+					</columns>
+                    <items>
+                        <ColumnListItem id="cli1">
+                            <!-- <ObjectIdentifier id="obj1" title="{name}" /> -->
+                            <ObjectIdentifier id="_IDGenObjectIdentifier1" title="{/name}"/>
+
+      <Text id="_IDGenText7" text="{/sincewhen}"/>
+
+      <Text id="_IDGenText8" text="{/contactno}"/>
+
+      <Text id="_IDGenText9" text="{/person}"/>
+
+      <Text id="_IDGenText10" text="{/nofstores}"/>
+
+      <Text id="_IDGenText11" text="{/speciality}"/>
+
+      <Input
+
+      id="city"
+
+     
+
+      placeholder="City"
+
+      showValueHelp="true"
+
+      valueHelpRequest="onValueHelpRequested"
+
+ 
+
+      />
+                        </ColumnListItem>
+                    </items>
+                </Table>	
+</core:FragmentDefinition>
+    

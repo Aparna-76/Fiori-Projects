@@ -1,0 +1,26 @@
+<core:FragmentDefinition
+   xmlns="sap.m"
+   xmlns:core="sap.ui.core"
+      xmlns:f="sap.ui.layout.form"> 
+<f:SimpleForm id="SimpleFormChange354">
+               <Input
+			id="productInput1"
+			placeholder="Name" 
+               value="{name}"
+               width="60%">
+		</Input>
+               <Input
+			id="productInput2"
+			placeholder="Taste"
+               value="{taste}" 
+               width="60%">
+		</Input>
+               <Input
+			id="productInput3"
+			placeholder="Rupees" 
+               value="{price}"
+               width="60%">
+		</Input>
+          </f:SimpleForm>
+</core:FragmentDefinition>
+

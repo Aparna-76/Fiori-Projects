@@ -1,0 +1,32 @@
+<mvc:View controllerName="com.applexus.fioritask.controller.Calculatorview"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+    <content>
+    <VBox id= "v1">
+			<Input id= "display" value=" " width="10%" ></Input>
+            <HBox id= "h1">
+            <Button id="_IDGenButton1"  text="1" press="onPress" class="calculator-button button-1"> </Button>
+            <Button id="_IDGenButton2"  text="2" press="onPress" class="calculator-button button-2"> </Button>
+            <Button id="_IDGenButton3"  text="3" press="onPress" class="calculator-button button-3"> </Button>
+            <Button id="_IDGenButton4"  text="+" press="onOperatorPress" class="calculator-button button-a"> </Button> </HBox>
+            <HBox id= "h2">
+            <Button id="_IDGenButton5"  text="4" press="onPress" class="calculator-button button-4"> </Button>
+            <Button id="_IDGenButton6"  text="5" press="onPress" class="calculator-button button-5"> </Button>
+            <Button id="_IDGenButton7"  text="6" press="onPress" class="calculator-button button-6"> </Button>
+            <Button id="_IDGenButton8"  text="-" press="onOperatorPress" class="calculator-button button-b"> </Button> </HBox>
+            <HBox id= "h3">
+            <Button id="_IDGenButton9" text="7" press="onPress" class="calculator-button button-7"> </Button>
+            <Button id="_IDGenButton10" text="8" press="onPress" class="calculator-button button-8"> </Button>
+            <Button id="_IDGenButton11" text="9" press="onPress" class="calculator-button button-9"> </Button>
+            <Button id="_IDGenButton12" text="*" press="onOperatorPress" class="calculator-button button-c"> </Button> </HBox>
+            <HBox id= "h4">
+            <Button id="_IDGenButton13"   text="C" press="onClear" class="calculator-button button-d"> </Button>
+            <Button id="_IDGenButton14"   text="0" press="onPress" class="calculator-button button-10"> </Button>
+            <Button id="_IDGenButton15"   text="=" press="onCalculate" class="calculator-button button-e"> </Button>
+            <Button id="_IDGenButton16"   text="/" press="onOperatorPress" class="calculator-button button-f"> </Button> </HBox>
+            </VBox>
+            
+            </content>
+    </Page>
+</mvc:View>

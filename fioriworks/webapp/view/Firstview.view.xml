@@ -1,0 +1,28 @@
+<mvc:View controllerName="com.applexus.fioriworks.controller.Firstview"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+       <content>
+       <Input
+			id="productInput1"
+			placeholder="Enter first value">
+		</Input>
+               <Input
+			id="productInput2"
+			placeholder="Enter second value">
+		</Input>
+               <Input
+			id="productInput3"
+			placeholder="Enter third value">
+		</Input>
+               <Input
+			id="productInput4"
+			placeholder="Enter fourth value">
+		</Input>
+        	<Button id="b1"
+            text="Default"
+						press="onPress">
+				</Button>
+        </content>
+    </Page>
+</mvc:View>

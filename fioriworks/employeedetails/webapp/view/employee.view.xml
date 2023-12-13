@@ -1,0 +1,33 @@
+<mvc:View controllerName="employeedetails.controller.employee"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:f="sap.ui.layout.form">
+    <Page id="page" title="{i18n>title}">
+        	<f:SimpleForm id="form">
+		
+			<f:content>
+				<Label id="_IDGenLabel1" text="Employee Id"/>
+				<Input id="id"  width="25%"/>
+				<Label id="_IDGenLabel2" text="Name" />
+				<Input id="name"  width="25%"/>
+				<Label id="_IDGenLabel3" text="Salary" />
+				<Input id="salary" width="25%"/>
+				<Label id="_IDGenLabel4" text="Currency" />
+				<Input id="currency" width="25%"/>
+                <Label id="_IDGenLabel5" text="Smoker" />
+				<Input id="smoker" width="25%"/>
+                <Label id="_IDGenLabel6" text="Gender" />
+				<Input id="gender" width="25%"/>
+                <Label id="_IDGenLabel7" text="Marital Status" />
+				<Input id="maritalstatus" width="25%"/>
+                <Label id="_IDGenLabel8" text="Rating" />
+				<Input id="rating" width="25%"/>
+                <ToggleButton id="btn" text="submit" press="onPress" width="25%"></ToggleButton>
+  
+				
+			
+			
+			</f:content>
+		</f:SimpleForm>
+    </Page>
+</mvc:View>

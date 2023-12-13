@@ -1,0 +1,21 @@
+{
+
+    "JSONModel" : [
+
+        {
+            "EmployeeName": "Jain",
+            "Age": "42",
+            "Country": "India"
+        },
+
+        {
+            "EmployeeName": "Rohith",
+            "Age": "23",
+            "Country": "Germany"
+        }
+
+    ]
+
+}
+
+

@@ -1,0 +1,44 @@
+<mvc:View controllerName="tablecontrol.controller.list"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns:l="sap.ui.layout"
+    xmlns:t="sap.ui.table"
+    xmlns:c="sap.ui.core"
+    xmlns:f="sap.ui.layout.form"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+        
+    <List id="_IDGenList1" 
+        items="{
+         path : '/fruit',
+         sorter : {
+            path : 'name' 
+         }
+      }"  mode="MultiSelect">
+        <ObjectListItem id="_IDGenObjectListItem1" title="{name}" number="{price}" numberUnit="{curr}" icon="{image}" intro="{taste}" type="Navigation" press="onNavPress"/>
+
+       
+        <headerToolbar>
+         <Toolbar id="_IDGenToolbar1">
+    
+            <Title id="_IDGenTitle1" text="{i18n>
+          Fruits Store}"/>
+          	
+            <ToolbarSpacer id="_IDGenToolbarSpacer1"/>
+            <SearchField id="_IDGenSearchField1" width="50%" liveChange="onFilterInvoices"/>
+            <Button
+											id="deleteUserButton"
+											icon="sap-icon://delete"
+											tooltip="{i18n>deleteButtonText}"
+											press="onDelete">
+											
+										</Button>
+         </Toolbar>
+      </headerToolbar>
+
+        </List>
+        
+    </content>
+    </Page>
+
+</mvc:View>
